@@ -289,8 +289,4 @@ h2 span.update i {
   .box-text-mobile {
     display: none;
   }
-
-  .box-text p .tagline {
-    font-size: .9rem;
-  }
 }
