@@ -97,7 +97,7 @@ h2 {
   font-size: .9rem;
 }
 
-.box-text p .tagline {
+p .tagline {
   color: #777;
   font-size: .7rem;
   line-height: 1.6;
@@ -120,19 +120,19 @@ p span.update {
   background-color: hsl(215, 52%, 50%);
 }
 
-h2 span.entertainment i {
+.entertainment i {
   color: hsl(250, 52%, 50%);
 }
 
-h2 span.fashion i {
+.fashion i {
   color: hsl(340, 52%, 50%);
 }
 
-h2 span.local i {
+.local i {
   color: hsl(134, 52%, 45%);
 }
 
-h2 span.update i {
+.update i {
   color: hsl(215, 52%, 50%);
 }
 
