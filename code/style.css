@@ -49,11 +49,11 @@ h1 {
 
 .box-container .box:hover {
   box-shadow: -1px 2px 10px rgba(0, 0, 0, .4);
-  transform: translate(0, -5px);
   -webkit-transform: translate(0, -5px);
   -moz-transform: translate(0, -5px);
   -o-transform: translate(0, -5px);
   -ms-transform: translate(0, -5px);
+  transform: translate(0, -5px);
 }
 
 .box-container .box img {
@@ -88,8 +88,8 @@ h2 {
   display: inline;
   padding: 5px;
   padding-right: 7px;
-  box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .box-text p, .box-text-mobile p {
