@@ -174,7 +174,6 @@ p span.update {
   .tagline-large {
     display: block;
   }
-
 }
 
 @media (min-width: 900px) {
@@ -195,10 +194,6 @@ p span.update {
     width: 90%;
   }
 
-  .box-text-mobile {
-    display: none;
-  }
-
   h2 {
     font-size: 1rem;
   }
@@ -215,10 +210,6 @@ p span.update {
 
   .box-text {
     width: 80%;
-  }
-
-  .box-text-mobile {
-    display: none;
   }
 
   h2 {
