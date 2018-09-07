@@ -33,24 +33,30 @@ h1 {
 
 .box-container .box {
   float: left;
-  padding: 10px;
+  margin-bottom: 10px;
   position: relative;
+  transition: .1s linear;
   width: 100%;
 }
 
 .box-container .box:hover {
-  
+  box-shadow: -1px 2px 7px rgba(0, 0, 0, .4);
+  transform: translate(0, -5px);
+  -webkit-transform: translate(0, -5px);
+  -moz-transform: translate(0, -5px);
+  -o-transform: translate(0, -5px);
+  -ms-transform: translate(0, -5px);
 }
 
 .box-container .box img {
-  max-width: 450px;
+  display: block;
   width: 100%;
 }
 
 .box-text {
   position: absolute;
-  bottom: 24px;
-  left: 20px;
+  bottom: 12px;
+  left: 8px;
   text-align: left;
   width: 85%;
 }
@@ -109,13 +115,13 @@ h2 {
     width: 80%;
   }
   .box-container .box {
-    padding: 20px 10px;
-    width: 33.33%;
+    margin: 20px;
+    width: calc(33.33% - 40px);
   }
   .box-text {
     width: 80%;
-    bottom: 32px;
-    left: 20px;
+    bottom: 12px;
+    left: 8px;
   }
   h2 {
     font-size: 1.5rem;
@@ -136,14 +142,15 @@ h2 {
     width: 90%;
   }
   .box-container .box {
-    width: 50%;
+    margin: 10px;
+    width: calc(50% - 20px);
   }
   h2 {
     font-size: 1.6rem;
   }
   .box-text {
-    bottom: 24px;
-    left: 20px;
+    bottom: 12px;
+    left: 8px;
   }
   .box-text p .tagline {
     font-size: .9rem;
