@@ -88,20 +88,36 @@ h2 {
   padding-bottom: 5px;
 }
 
-.entertainment {
+p span.entertainment {
   background-color: hsl(250, 52%, 50%);
 }
 
-.fashion {
+p span.fashion {
   background-color: hsl(340, 52%, 50%);
 }
 
-.local {
+p span.local {
   background-color: hsl(134, 52%, 45%);
 }
 
-.update {
+p span.update {
   background-color: hsl(215, 52%, 50%);
+}
+
+h2 span.entertainment i {
+  color: hsl(250, 52%, 50%);
+}
+
+h2 span.fashion i {
+  color: hsl(340, 52%, 50%);
+}
+
+h2 span.local i {
+  color: hsl(134, 52%, 45%);
+}
+
+h2 span.update i {
+  color: hsl(215, 52%, 50%);
 }
 
 @media (min-width: 1450px) {
